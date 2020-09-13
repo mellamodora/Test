@@ -1,0 +1,4 @@
+function sendMessages()
+        local time = os.date("*t")
+        time = string.format("%02d:%02d:%02d", time.hour, time.min, time.sec) or "00:00:00"
+        
